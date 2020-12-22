@@ -10,6 +10,7 @@ def call(Map params){
     println testName
     println testType
     println userName
+    println env
 
     def sout = new StringBuilder(), serr = new StringBuilder();
     Logger logger = Logger.getLogger("")

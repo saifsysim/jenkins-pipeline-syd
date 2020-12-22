@@ -8,7 +8,7 @@ def call(String testname, String username, String testtype) {
         process.waitForOrKill(1000)
         println sout
         echo "UID printed"
-        String UdId = "" // to empty the string before using it
+
         UdId = sout.toString().split(':')[1].replaceAll("\\s","")
         echo UdId
         String testing = 'STARTED'

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5647009d-8aaa-4e36-bf9b-6bfa55e71e79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/hello.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/hello.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/runPerfTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/runPerfTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vars/runPerfTestbkp.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/runPerfTestbkp.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

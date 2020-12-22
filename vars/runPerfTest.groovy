@@ -13,11 +13,13 @@ def call(Map params){
     println env
 
     def sout = new StringBuilder(), serr = new StringBuilder();
-    Logger logger = Logger.getLogger("")
+    Logger logger = Logger.getLogger("testName")
     def process = [ 'bash', '-c', "curl -X POST -H \"Content-Type: application/json\"  -H \"Accept: */*\" -H \"Cache-Control: no-cache\" -H \"Postman-Token: f7f691b9-dcf9-6371-2b74-beb8517e3a5a0\" -d '{ \"repeatTest\": \"yes\",\"testName\": \"${testname}\", \"uesrs_userId\": \"${username}\"}' http://gvez9.mocklab.io/run/runTest" ].execute()
     process.consumeProcessOutput(sout, serr)
     process.waitForOrKill(1000)
     println sout
     echo "UID printed"
+    UdId = sout.toString().split(':')[1].replaceAll("\\s","")
+    echo UdId
 
 }

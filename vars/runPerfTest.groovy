@@ -5,5 +5,7 @@ def call(Map params){
     def testType= params.get("testType", true)
     echo "works"
     echo "hello"
-    sh 'echo $testType'
+   echo $testType
+    echo $testName
+
 }
